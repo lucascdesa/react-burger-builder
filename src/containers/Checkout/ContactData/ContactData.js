@@ -47,7 +47,7 @@ class ContactData extends Component {
         let form = (
             <form>
                 <input className={classes.Input} type="text" name="name" placeholder="Name" />
-                <input className={classes.Input} type="email" name="email" placeholder="E-ail" />
+                <input className={classes.Input} type="email" name="email" placeholder="E-mail" />
                 <input className={classes.Input} type="text" name="street" placeholder="Street" />
                 <input className={classes.Input} type="text" name="postal" placeholder="Postal Code" />
                 <Button btnType="Success" clicked={this.orderHandler}>ORDER</Button>
